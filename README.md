@@ -50,6 +50,7 @@ Example using mysqldump for employees.sql, the content how it looks like as belo
 mysqldump -u [username] -p [database_name] > [output_file].sql
 
 23. Example To import the data into your MySQL instance, load the data through the mysql command-line tool: type “mysql -t < employees.sql”
+SQL: mysql -u your_username -p your_database_name < /path/to/your/file.sql
 
 24. exit from MySQL: type "exit"
 Visual Studio Code - Code Editing. Redefined
