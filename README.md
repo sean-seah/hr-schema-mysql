@@ -36,7 +36,7 @@ MySQL Root Password: admin123
 12. type "path" to check exist path
 13. look for where is MySQL bin //edit the system environment variables>advanced>environment variables>add the copied URL into path through'edit' and paste it with "
 set path=%PATH%;C:\Program Files\MySQL\MySQL Server 9.1\bin"
-14. If theres an error "2003HY000 : Can't Connect to mysql server on local host 3306". you have to active the server via Run>Services, and activate your MYSQL server by double click it. 
+14. If theres an error "2003HY000 : Can't Connect to mysql server on local host 3306". you have to active the server via Run>Services.msc, and activate your MYSQL server by double click it. 
 
 15. try again, type "mysql -u root -p"
 16. then come out the message to enter password
